@@ -98,10 +98,7 @@ export function isFirstTeam(home: string, away: string): boolean {
   const names = [home, away].map((s) =>
     s.toLowerCase().replace(/\s+/g, ' ').trim(),
   );
-  return (
-    names.some((s) => /^(?:пфк )?цска(?: москва)?$/.test(s)) &&
-    !names.some((s) =>
-      /молод|цска[ -]?2|u[ -]?\d{2}|юнош|резерв|женск|легенд/.test(s),
-    )
-  );
+  // The CSKA side must be the first team. An opponent may itself be a youth
+  // or reserve side; that does not make a first-team friendly ineligible.
+  return names.some((s) => /^(?:пфк )?цска(?: москва)?$/.test(s));
 }

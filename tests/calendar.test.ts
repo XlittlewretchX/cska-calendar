@@ -306,6 +306,14 @@ describe('persistent identity and history', () => {
       ),
     ).toHaveLength(1);
   });
+  it('includes first-team friendlies against youth opponents or Molodechno', () => {
+    expect(
+      mergeMatches([], [fixture({ away: 'Зенит U19' })], now),
+    ).toHaveLength(1);
+    expect(
+      mergeMatches([], [fixture({ away: 'Молодечно' })], now),
+    ).toHaveLength(1);
+  });
   it('rejects invalid dates, times and reversed ranges', () => {
     for (const schedule of [
       { kind: 'day', date: '2027-02-30' },
