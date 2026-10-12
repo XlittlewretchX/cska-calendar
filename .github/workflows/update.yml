@@ -52,7 +52,7 @@ jobs:
             git commit -m 'chore: update CSKA match history and calendar'
             git push origin HEAD:main
           fi
-      - uses: actions/upload-pages-artifact@v4
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: public
   deploy:
