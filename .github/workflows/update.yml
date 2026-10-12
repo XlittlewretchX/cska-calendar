@@ -1,0 +1,71 @@
+name: Update calendar and deploy Pages
+on:
+  schedule:
+    - cron: '0 3 * * *' # 06:00 Europe/Moscow; GitHub may delay cron runs.
+  workflow_dispatch:
+    inputs:
+      bootstrap:
+        description: 'Повторно загрузить все доступные сезоны'
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    paths-ignore: ['data/**', 'public/calendar.ics', 'public/status.json']
+permissions:
+  contents: read
+concurrency:
+  group: cska-calendar-pages
+  cancel-in-progress: false
+jobs:
+  update:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - run: npm run check
+      - name: Fetch matches and merge history
+        env:
+          BOOTSTRAP: ${{ inputs.bootstrap || false }}
+        run: |
+          if [ "$BOOTSTRAP" = "true" ]; then
+            npm run bootstrap
+          else
+            npm run update
+          fi
+      - name: Commit verified data when changed
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/matches.json public/calendar.ics public/status.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'chore: update CSKA match history and calendar'
+            git push origin HEAD:main
+          fi
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: public
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

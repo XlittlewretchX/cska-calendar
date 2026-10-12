@@ -1,0 +1,244 @@
+{
+  "updatedAt": "2026-10-12T13:45:01.473Z",
+  "matches": 1751,
+  "events": 1751,
+  "period": {
+    "from": "1992-03-29",
+    "through": "2027-05-29"
+  },
+  "coverage": [
+    {
+      "seasonId": 29551,
+      "season": "1992",
+      "count": 26,
+      "fetchedAt": "2026-10-12T13:36:42.227Z"
+    },
+    {
+      "seasonId": 29552,
+      "season": "1993",
+      "count": 49,
+      "fetchedAt": "2026-10-12T13:36:42.227Z"
+    },
+    {
+      "seasonId": 29553,
+      "season": "1994",
+      "count": 39,
+      "fetchedAt": "2026-10-12T13:36:42.227Z"
+    },
+    {
+      "seasonId": 29554,
+      "season": "1995",
+      "count": 32,
+      "fetchedAt": "2026-10-12T13:36:42.227Z"
+    },
+    {
+      "seasonId": 29555,
+      "season": "1996",
+      "count": 39,
+      "fetchedAt": "2026-10-12T13:36:42.227Z"
+    },
+    {
+      "seasonId": 29556,
+      "season": "1997",
+      "count": 36,
+      "fetchedAt": "2026-10-12T13:36:42.227Z"
+    },
+    {
+      "seasonId": 29557,
+      "season": "1998",
+      "count": 33,
+      "fetchedAt": "2026-10-12T13:36:42.227Z"
+    },
+    {
+      "seasonId": 29558,
+      "season": "1999",
+      "count": 36,
+      "fetchedAt": "2026-10-12T13:36:42.227Z"
+    },
+    {
+      "seasonId": 29559,
+      "season": "2000",
+      "count": 39,
+      "fetchedAt": "2026-10-12T13:36:42.227Z"
+    },
+    {
+      "seasonId": 29560,
+      "season": "2001",
+      "count": 30,
+      "fetchedAt": "2026-10-12T13:36:42.227Z"
+    },
+    {
+      "seasonId": 29561,
+      "season": "2002",
+      "count": 39,
+      "fetchedAt": "2026-10-12T13:36:42.227Z"
+    },
+    {
+      "seasonId": 29562,
+      "season": "2003",
+      "count": 45,
+      "fetchedAt": "2026-10-12T13:36:42.227Z"
+    },
+    {
+      "seasonId": 29563,
+      "season": "2004",
+      "count": 63,
+      "fetchedAt": "2026-10-12T13:36:42.227Z"
+    },
+    {
+      "seasonId": 29564,
+      "season": "2005",
+      "count": 58,
+      "fetchedAt": "2026-10-12T13:36:42.227Z"
+    },
+    {
+      "seasonId": 29565,
+      "season": "2006",
+      "count": 62,
+      "fetchedAt": "2026-10-12T13:36:42.227Z"
+    },
+    {
+      "seasonId": 29566,
+      "season": "2007",
+      "count": 53,
+      "fetchedAt": "2026-10-12T13:36:42.227Z"
+    },
+    {
+      "seasonId": 29567,
+      "season": "2008",
+      "count": 47,
+      "fetchedAt": "2026-10-12T13:36:42.227Z"
+    },
+    {
+      "seasonId": 29568,
+      "season": "2009",
+      "count": 52,
+      "fetchedAt": "2026-10-12T13:36:42.227Z"
+    },
+    {
+      "seasonId": 29569,
+      "season": "2010",
+      "count": 56,
+      "fetchedAt": "2026-10-12T13:36:42.227Z"
+    },
+    {
+      "seasonId": 29570,
+      "season": "2011/12",
+      "count": 72,
+      "fetchedAt": "2026-10-12T13:36:42.227Z"
+    },
+    {
+      "seasonId": 29571,
+      "season": "2012/13",
+      "count": 56,
+      "fetchedAt": "2026-10-12T13:36:42.227Z"
+    },
+    {
+      "seasonId": 29572,
+      "season": "2013/14",
+      "count": 56,
+      "fetchedAt": "2026-10-12T13:36:42.227Z"
+    },
+    {
+      "seasonId": 29573,
+      "season": "2014/15",
+      "count": 60,
+      "fetchedAt": "2026-10-12T13:36:42.227Z"
+    },
+    {
+      "seasonId": 29574,
+      "season": "2015/16",
+      "count": 62,
+      "fetchedAt": "2026-10-12T13:36:42.227Z"
+    },
+    {
+      "seasonId": 29575,
+      "season": "2016/17",
+      "count": 58,
+      "fetchedAt": "2026-10-12T13:36:42.227Z"
+    },
+    {
+      "seasonId": 119641,
+      "season": "2011",
+      "count": 17,
+      "fetchedAt": "2026-10-12T13:36:42.227Z"
+    },
+    {
+      "seasonId": 137800,
+      "season": "2017/18",
+      "count": 62,
+      "fetchedAt": "2026-10-12T13:36:42.227Z"
+    },
+    {
+      "seasonId": 147678,
+      "season": "2018/19",
+      "count": 53,
+      "fetchedAt": "2026-10-12T13:36:42.227Z"
+    },
+    {
+      "seasonId": 158481,
+      "season": "2019/20",
+      "count": 58,
+      "fetchedAt": "2026-10-12T13:36:42.227Z"
+    },
+    {
+      "seasonId": 167900,
+      "season": "2020/21",
+      "count": 48,
+      "fetchedAt": "2026-10-12T13:36:42.227Z"
+    },
+    {
+      "seasonId": 176739,
+      "season": "2021/22",
+      "count": 50,
+      "fetchedAt": "2026-10-12T13:36:42.227Z"
+    },
+    {
+      "seasonId": 186797,
+      "season": "2022/23",
+      "count": 56,
+      "fetchedAt": "2026-10-12T13:36:42.227Z"
+    },
+    {
+      "seasonId": 200906,
+      "season": "2023/24",
+      "count": 55,
+      "fetchedAt": "2026-10-12T13:36:42.227Z"
+    },
+    {
+      "seasonId": 215322,
+      "season": "2024/25",
+      "count": 57,
+      "fetchedAt": "2026-10-12T13:36:42.227Z"
+    },
+    {
+      "seasonId": 223974,
+      "season": "2025",
+      "count": 4,
+      "fetchedAt": "2026-10-12T13:45:01.473Z"
+    },
+    {
+      "seasonId": 223979,
+      "season": "2025/26",
+      "count": 42,
+      "fetchedAt": "2026-10-12T13:45:01.473Z"
+    },
+    {
+      "seasonId": 223980,
+      "season": "2026",
+      "count": 8,
+      "fetchedAt": "2026-10-12T13:45:01.473Z"
+    },
+    {
+      "seasonId": 223981,
+      "season": "2026/27",
+      "count": 21,
+      "fetchedAt": "2026-10-12T13:45:01.473Z"
+    }
+  ],
+  "limitations": [
+    "Покрытие ограничено опубликованными данными официального API; абсолютная полнота не гарантируется.",
+    "Исчезновение встречи не означает её отмену. Отмена требует явного статуса источника.",
+    "Матчи без даты и диапазона сохраняются в JSON, но не получают выдуманную дату в календаре."
+  ]
+}

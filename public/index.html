@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#202c68" />
+    <title>CSKA Calendar — подписка на все матчи</title>
+    <style>
+      :root {
+        color-scheme: light;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        color: #202c68;
+        background: #f4f5f8;
+      }
+      body {
+        margin: 0;
+      }
+      main {
+        max-width: 740px;
+        margin: 8vh auto;
+        padding: 40px 28px;
+      }
+      .tag {
+        color: #c72334;
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 0.13em;
+      }
+      h1 {
+        font-size: clamp(38px, 7vw, 64px);
+        line-height: 1.06;
+        margin: 22px 0;
+        letter-spacing: -0.04em;
+      }
+      p,
+      li {
+        font-size: 17px;
+        line-height: 1.65;
+      }
+      .intro {
+        font-size: 21px;
+        max-width: 600px;
+      }
+      .button {
+        display: inline-block;
+        color: white;
+        background: #c72334;
+        border-radius: 12px;
+        padding: 16px 22px;
+        text-decoration: none;
+        font-weight: 650;
+        margin: 18px 0;
+      }
+      a {
+        color: #202c68;
+        text-underline-offset: 4px;
+      }
+      a:focus-visible {
+        outline: 3px solid #c72334;
+        outline-offset: 5px;
+      }
+      .url {
+        display: block;
+        padding: 17px;
+        border: 1px solid #cdd1df;
+        border-radius: 10px;
+        background: white;
+        overflow-wrap: anywhere;
+        font-size: 13px;
+        user-select: all;
+      }
+      section {
+        border-top: 1px solid #d8dce8;
+        margin-top: 34px;
+        padding-top: 16px;
+      }
+      h2 {
+        font-size: 22px;
+      }
+      .quiet {
+        font-size: 14px;
+        color: #61677c;
+      }
+      footer {
+        margin-top: 35px;
+      }
+      @media (max-width: 480px) {
+        main {
+          margin: 3vh auto;
+          padding: 30px 22px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="tag">КРАСНО-СИНИЙ СЕЗОН · ВСЕ ТУРНИРЫ</div>
+      <h1>ЦСКА в вашем<br />календаре.</h1>
+      <p class="intro">
+        Одна подписка на матчи основной команды: чемпионат, кубки, сборы и
+        товарищеские встречи. Расписание и результаты обновляются каждый день.
+      </p>
+      <a
+        class="button"
+        href="webcal://xlittlewretchx.github.io/cska-calendar/calendar.ics"
+        >Подписаться на календарь ↗</a
+      >
+      <p class="quiet">
+        Для iPhone, iPad и Mac. Если кнопка не открыла «Календарь», добавьте
+        подписку по адресу:
+      </p>
+      <code class="url"
+        >https://xlittlewretchx.github.io/cska-calendar/calendar.ics</code
+      >
+      <section>
+        <h2>Даты могут уточняться</h2>
+        <p>
+          Предварительные диапазоны занимают несколько дней. После публикации
+          даты и времени та же встреча обновится автоматически. Прошедшие матчи
+          останутся вместе с результатами.
+        </p>
+      </section>
+      <section>
+        <h2>Как подключить</h2>
+        <p>
+          <strong>iPhone / iPad:</strong> «Календарь» → «Календари» → «Добавить
+          календарь» → «Добавить подписной календарь».
+        </p>
+        <p>
+          <strong>Mac:</strong> «Календарь» → «Файл» → «Новая подписка на
+          календарь». Выберите автообновление каждый час.
+        </p>
+        <p class="quiet">
+          Добавьте подписку по ссылке, чтобы получать изменения. Разовый импорт
+          файла не обновляется.
+        </p>
+      </section>
+      <section>
+        <h2>Данные официального сайта</h2>
+        <p id="status" aria-live="polite">
+          История с 1992 года. Сведения о последнем успешном обновлении — в
+          файле состояния.
+        </p>
+        <p class="quiet">
+          Покрытие зависит от опубликованного расписания клуба; архив может быть
+          неполным. Частоту получения изменений на устройстве определяет Apple.
+        </p>
+      </section>
+      <footer class="quiet">
+        <a href="https://github.com/XlittlewretchX/cska-calendar"
+          >Код и подробная инструкция</a
+        >
+        · <a href="status.json">Состояние данных</a>
+        <p class="quiet">
+          Независимый бесплатный проект. Не официальный сервис ПФК ЦСКА.
+        </p>
+      </footer>
+    </main>
+    <script>
+      fetch('status.json')
+        .then((r) => {
+          if (!r.ok) throw new Error('HTTP ' + r.status);
+          return r.json();
+        })
+        .then((s) => {
+          const updated = new Date(s.updatedAt).toLocaleString('ru-RU', {
+            timeZone: 'Europe/Moscow',
+          });
+          document.getElementById('status').textContent =
+            `${s.matches.toLocaleString('ru-RU')} матчей. Последнее обновление: ${updated} (Москва).`;
+        })
+        .catch(() => {});
+    </script>
+  </body>
+</html>
