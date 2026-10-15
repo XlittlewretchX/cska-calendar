@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T08:21:09.060Z",
+  "updatedAt": "2026-10-15T07:57:56.350Z",
   "matches": 1751,
   "events": 1751,
   "period": {
@@ -215,25 +215,25 @@
       "seasonId": 223974,
       "season": "2025",
       "count": 4,
-      "fetchedAt": "2026-10-14T08:21:09.060Z"
+      "fetchedAt": "2026-10-15T07:57:56.350Z"
     },
     {
       "seasonId": 223979,
       "season": "2025/26",
       "count": 42,
-      "fetchedAt": "2026-10-14T08:21:09.060Z"
+      "fetchedAt": "2026-10-15T07:57:56.350Z"
     },
     {
       "seasonId": 223980,
       "season": "2026",
       "count": 8,
-      "fetchedAt": "2026-10-14T08:21:09.060Z"
+      "fetchedAt": "2026-10-15T07:57:56.350Z"
     },
     {
       "seasonId": 223981,
       "season": "2026/27",
-      "count": 21,
-      "fetchedAt": "2026-10-14T08:21:09.060Z"
+      "count": 22,
+      "fetchedAt": "2026-10-15T07:57:56.350Z"
     }
   ],
   "limitations": [

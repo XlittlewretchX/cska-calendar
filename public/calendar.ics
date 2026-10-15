@@ -33583,22 +33583,23 @@ LAST-MODIFIED:20261012T133642Z
 END:VEVENT
 BEGIN:VEVENT
 UID:2d89dfc3f3423ca2a8a56ffdda3de5c6@cska-calendar
-SEQUENCE:0
-DTSTAMP:20261012T133642Z
+SEQUENCE:1
+DTSTAMP:20261015T075756Z
 DTSTART:20261014T174500Z
 DTEND:20261014T194500Z
-SUMMARY:⚽ ЦСКА — Ростов
+SUMMARY:⚽ ЦСКА 4:0 Ростов
 TRANSP:TRANSPARENT
 LOCATION:ВЭБ Арена
 DESCRIPTION:FONBET Кубок России\nСезон: 2026/27\nПуть 
  РПЛ\, Тур 4\nХозяева: ЦСКА\nГости: Ростов\nС
  тадион: ВЭБ Арена\n14 октябрь 2026\, 20:45 (Моск
- ва)\nПродолжительность события условная:
-  2 часа.\nhttps://pfc-cska.com/ru/matchi/kalendar-matchej/32250/
+ ва)\nИтоговый счёт: 4:0\nПродолжительность 
+ события условная: 2 часа.\nhttps://pfc-cska.com/ru/matc
+ hi/kalendar-matchej/32250/
 URL;VALUE=URI:https://pfc-cska.com/ru/matchi/kalendar-matchej/32250/
 STATUS:CONFIRMED
 CREATED:20261012T133642Z
-LAST-MODIFIED:20261012T133642Z
+LAST-MODIFIED:20261015T075756Z
 END:VEVENT
 BEGIN:VEVENT
 UID:8f630af9b053908970eec81146c14bd0@cska-calendar
