@@ -33603,22 +33603,23 @@ LAST-MODIFIED:20261015T075756Z
 END:VEVENT
 BEGIN:VEVENT
 UID:8f630af9b053908970eec81146c14bd0@cska-calendar
-SEQUENCE:0
-DTSTAMP:20261012T133642Z
+SEQUENCE:1
+DTSTAMP:20261019T082626Z
 DTSTART:20261018T131500Z
 DTEND:20261018T151500Z
-SUMMARY:⚽ Динамо М — ЦСКА
+SUMMARY:⚽ Динамо М 3:1 ЦСКА
 TRANSP:TRANSPARENT
 LOCATION:ВТБ Арена
 DESCRIPTION:Альфа-Банк РПЛ\nСезон: 2026/27\nТур 11\nХ
  озяева: Динамо М\nГости: ЦСКА\nСтадион: ВТ
- Б Арена\n18 октябрь 2026\, 16:15 (Москва)\nПродол
- жительность события условная: 2 часа.\nhttps
- ://pfc-cska.com/ru/matchi/kalendar-matchej/32238/
+ Б Арена\n18 октябрь 2026\, 16:15 (Москва)\nИтогов
+ ый счёт: 3:1\nПродолжительность события ус
+ ловная: 2 часа.\nhttps://pfc-cska.com/ru/matchi/kalendar-matchej
+ /32238/
 URL;VALUE=URI:https://pfc-cska.com/ru/matchi/kalendar-matchej/32238/
 STATUS:CONFIRMED
 CREATED:20261012T133642Z
-LAST-MODIFIED:20261012T133642Z
+LAST-MODIFIED:20261019T082626Z
 END:VEVENT
 BEGIN:VEVENT
 UID:553af757c96c7d59ac5d97d65fd882da@cska-calendar
