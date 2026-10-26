@@ -33623,22 +33623,23 @@ LAST-MODIFIED:20261019T082626Z
 END:VEVENT
 BEGIN:VEVENT
 UID:553af757c96c7d59ac5d97d65fd882da@cska-calendar
-SEQUENCE:0
-DTSTAMP:20261012T133642Z
+SEQUENCE:1
+DTSTAMP:20261026T082817Z
 DTSTART:20261025T130000Z
 DTEND:20261025T150000Z
-SUMMARY:⚽ ЦСКА — Спартак М
+SUMMARY:⚽ ЦСКА 2:0 Спартак М
 TRANSP:TRANSPARENT
 LOCATION:ВЭБ Арена
 DESCRIPTION:Альфа-Банк РПЛ\nСезон: 2026/27\nТур 12\nХ
  озяева: ЦСКА\nГости: Спартак М\nСтадион: В
- ЭБ Арена\n25 октябрь 2026\, 16:00 (Москва)\nПродо
- лжительность события условная: 2 часа.\nhtt
- ps://pfc-cska.com/ru/matchi/kalendar-matchej/32237/
+ ЭБ Арена\n25 октябрь 2026\, 16:00 (Москва)\nИтого
+ вый счёт: 2:0\nПродолжительность события у
+ словная: 2 часа.\nhttps://pfc-cska.com/ru/matchi/kalendar-match
+ ej/32237/
 URL;VALUE=URI:https://pfc-cska.com/ru/matchi/kalendar-matchej/32237/
 STATUS:CONFIRMED
 CREATED:20261012T133642Z
-LAST-MODIFIED:20261012T133642Z
+LAST-MODIFIED:20261026T082817Z
 END:VEVENT
 BEGIN:VEVENT
 UID:4419777187dff0cfdc68d8a0b15fd42a@cska-calendar
