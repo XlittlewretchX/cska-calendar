@@ -45099,11 +45099,12 @@
         "date": "2026-10-29",
         "time": "19:30"
       },
-      "status": "scheduled",
+      "status": "finished",
+      "score": "3:1",
       "uid": "4419777187dff0cfdc68d8a0b15fd42a@cska-calendar",
       "created": "2026-10-12T13:36:42.227Z",
-      "modified": "2026-10-12T13:36:42.227Z",
-      "sequence": 0
+      "modified": "2026-10-30T09:32:34.099Z",
+      "sequence": 1
     },
     {
       "refs": [
@@ -45808,26 +45809,26 @@
       "seasonId": 223974,
       "season": "2025",
       "count": 4,
-      "fetchedAt": "2026-10-29T09:16:36.256Z"
+      "fetchedAt": "2026-10-30T09:32:34.099Z"
     },
     {
       "seasonId": 223979,
       "season": "2025/26",
       "count": 42,
-      "fetchedAt": "2026-10-29T09:16:36.256Z"
+      "fetchedAt": "2026-10-30T09:32:34.099Z"
     },
     {
       "seasonId": 223980,
       "season": "2026",
       "count": 8,
-      "fetchedAt": "2026-10-29T09:16:36.256Z"
+      "fetchedAt": "2026-10-30T09:32:34.099Z"
     },
     {
       "seasonId": 223981,
       "season": "2026/27",
-      "count": 24,
-      "fetchedAt": "2026-10-29T09:16:36.256Z"
+      "count": 25,
+      "fetchedAt": "2026-10-30T09:32:34.099Z"
     }
   ],
-  "updatedAt": "2026-10-29T09:16:36.256Z"
+  "updatedAt": "2026-10-30T09:32:34.099Z"
 }

@@ -33643,23 +33643,23 @@ LAST-MODIFIED:20261026T082817Z
 END:VEVENT
 BEGIN:VEVENT
 UID:4419777187dff0cfdc68d8a0b15fd42a@cska-calendar
-SEQUENCE:0
-DTSTAMP:20261012T133642Z
+SEQUENCE:1
+DTSTAMP:20261030T093234Z
 DTSTART:20261029T163000Z
 DTEND:20261029T183000Z
-SUMMARY:⚽ ЦСКА — Локомотив
+SUMMARY:⚽ ЦСКА 3:1 Локомотив
 TRANSP:TRANSPARENT
 LOCATION:ВЭБ Арена
 DESCRIPTION:FONBET Кубок России\nСезон: 2026/27\nПуть 
  РПЛ\, Тур 5\nХозяева: ЦСКА\nГости: Локомоти
  в\nСтадион: ВЭБ Арена\n29 октябрь 2026\, 19:30 (М
- осква)\nПродолжительность события услов
- ная: 2 часа.\nhttps://pfc-cska.com/ru/matchi/kalendar-matchej/32249
- /
+ осква)\nИтоговый счёт: 3:1\nПродолжительно
+ сть события условная: 2 часа.\nhttps://pfc-cska.com/
+ ru/matchi/kalendar-matchej/32249/
 URL;VALUE=URI:https://pfc-cska.com/ru/matchi/kalendar-matchej/32249/
 STATUS:CONFIRMED
 CREATED:20261012T133642Z
-LAST-MODIFIED:20261012T133642Z
+LAST-MODIFIED:20261030T093234Z
 END:VEVENT
 BEGIN:VEVENT
 UID:5ce194477d9a4edb034cf707d33360b8@cska-calendar
