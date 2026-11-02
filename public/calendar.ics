@@ -33663,22 +33663,23 @@ LAST-MODIFIED:20261030T093234Z
 END:VEVENT
 BEGIN:VEVENT
 UID:5ce194477d9a4edb034cf707d33360b8@cska-calendar
-SEQUENCE:0
-DTSTAMP:20261012T133642Z
+SEQUENCE:1
+DTSTAMP:20261102T102955Z
 DTSTART:20261101T100000Z
 DTEND:20261101T120000Z
-SUMMARY:⚽ Оренбург — ЦСКА
+SUMMARY:⚽ Оренбург 0:0 ЦСКА
 TRANSP:TRANSPARENT
 LOCATION:Стадион Газовик
 DESCRIPTION:Альфа-Банк РПЛ\nСезон: 2026/27\nТур 13\nХ
  озяева: Оренбург\nГости: ЦСКА\nСтадион: Ст
- адион Газовик\n1 ноябрь 2026\, 13:00 (Москва)\nП
- родолжительность события условная: 2 час
- а.\nhttps://pfc-cska.com/ru/matchi/kalendar-matchej/32236/
+ адион Газовик\n1 ноябрь 2026\, 13:00 (Москва)\nИ
+ тоговый счёт: 0:0\nПродолжительность собы
+ тия условная: 2 часа.\nhttps://pfc-cska.com/ru/matchi/kalen
+ dar-matchej/32236/
 URL;VALUE=URI:https://pfc-cska.com/ru/matchi/kalendar-matchej/32236/
 STATUS:CONFIRMED
 CREATED:20261012T133642Z
-LAST-MODIFIED:20261012T133642Z
+LAST-MODIFIED:20261102T102955Z
 END:VEVENT
 BEGIN:VEVENT
 UID:0cece39b31ee1ba8f9d620d71d33eba1@cska-calendar
