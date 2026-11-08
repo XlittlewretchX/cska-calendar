@@ -33683,22 +33683,23 @@ LAST-MODIFIED:20261102T102955Z
 END:VEVENT
 BEGIN:VEVENT
 UID:0cece39b31ee1ba8f9d620d71d33eba1@cska-calendar
-SEQUENCE:0
-DTSTAMP:20261012T133642Z
+SEQUENCE:1
+DTSTAMP:20261108T094938Z
 DTSTART:20261107T163000Z
 DTEND:20261107T183000Z
-SUMMARY:⚽ Краснодар — ЦСКА
+SUMMARY:⚽ Краснодар 4:2 ЦСКА
 TRANSP:TRANSPARENT
 LOCATION:Стадион Краснодар
 DESCRIPTION:Альфа-Банк РПЛ\nСезон: 2026/27\nТур 14\nХ
  озяева: Краснодар\nГости: ЦСКА\nСтадион: С
  тадион Краснодар\n7 ноябрь 2026\, 19:30 (Москва
- )\nПродолжительность события условная: 2 
- часа.\nhttps://pfc-cska.com/ru/matchi/kalendar-matchej/32235/
+ )\nИтоговый счёт: 4:2\nПродолжительность со
+ бытия условная: 2 часа.\nhttps://pfc-cska.com/ru/matchi/k
+ alendar-matchej/32235/
 URL;VALUE=URI:https://pfc-cska.com/ru/matchi/kalendar-matchej/32235/
 STATUS:CONFIRMED
 CREATED:20261012T133642Z
-LAST-MODIFIED:20261012T133642Z
+LAST-MODIFIED:20261108T094938Z
 END:VEVENT
 BEGIN:VEVENT
 UID:590a5d57d20e784cacc3d0dde31079a3@cska-calendar
