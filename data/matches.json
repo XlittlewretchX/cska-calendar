@@ -45164,6 +45164,31 @@
       "refs": [
         {
           "source": "pfc-cska",
+          "id": "32766",
+          "url": "https://pfc-cska.com/ru/matchi/kalendar-matchej/32766/",
+          "priority": 100
+        }
+      ],
+      "home": "ЦСКА",
+      "away": "Арсенал Т",
+      "competition": "Товарищеские",
+      "season": "2026/27",
+      "venue": "Ватутинки",
+      "schedule": {
+        "kind": "timed",
+        "date": "2026-11-14",
+        "time": "14:00"
+      },
+      "status": "scheduled",
+      "uid": "dedb8ed27e7c0b9980df40dca67dd69a@cska-calendar",
+      "created": "2026-11-11T10:14:47.850Z",
+      "modified": "2026-11-11T10:14:47.850Z",
+      "sequence": 0
+    },
+    {
+      "refs": [
+        {
+          "source": "pfc-cska",
           "id": "32234",
           "url": "https://pfc-cska.com/ru/matchi/kalendar-matchej/32234/",
           "priority": 100
@@ -45811,26 +45836,26 @@
       "seasonId": 223974,
       "season": "2025",
       "count": 4,
-      "fetchedAt": "2026-11-10T10:44:31.658Z"
+      "fetchedAt": "2026-11-11T10:14:47.850Z"
     },
     {
       "seasonId": 223979,
       "season": "2025/26",
       "count": 42,
-      "fetchedAt": "2026-11-10T10:44:31.658Z"
+      "fetchedAt": "2026-11-11T10:14:47.850Z"
     },
     {
       "seasonId": 223980,
       "season": "2026",
       "count": 8,
-      "fetchedAt": "2026-11-10T10:44:31.658Z"
+      "fetchedAt": "2026-11-11T10:14:47.850Z"
     },
     {
       "seasonId": 223981,
       "season": "2026/27",
       "count": 27,
-      "fetchedAt": "2026-11-10T10:44:31.658Z"
+      "fetchedAt": "2026-11-11T10:14:47.850Z"
     }
   ],
-  "updatedAt": "2026-11-10T10:44:31.658Z"
+  "updatedAt": "2026-11-11T10:14:47.850Z"
 }

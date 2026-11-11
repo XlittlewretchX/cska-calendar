@@ -33702,6 +33702,25 @@ CREATED:20261012T133642Z
 LAST-MODIFIED:20261108T094938Z
 END:VEVENT
 BEGIN:VEVENT
+UID:dedb8ed27e7c0b9980df40dca67dd69a@cska-calendar
+SEQUENCE:0
+DTSTAMP:20261111T101447Z
+DTSTART:20261114T110000Z
+DTEND:20261114T130000Z
+SUMMARY:⚽ ЦСКА — Арсенал Т
+TRANSP:TRANSPARENT
+LOCATION:Ватутинки
+DESCRIPTION:Товарищеские\nСезон: 2026/27\nХозяева:
+  ЦСКА\nГости: Арсенал Т\nСтадион: Ватутинк
+ и\n14 ноябрь 2026\, 14:00 (Москва)\nПродолжитель
+ ность события условная: 2 часа.\nhttps://pfc-cska.
+ com/ru/matchi/kalendar-matchej/32766/
+URL;VALUE=URI:https://pfc-cska.com/ru/matchi/kalendar-matchej/32766/
+STATUS:CONFIRMED
+CREATED:20261111T101447Z
+LAST-MODIFIED:20261111T101447Z
+END:VEVENT
+BEGIN:VEVENT
 UID:590a5d57d20e784cacc3d0dde31079a3@cska-calendar
 SEQUENCE:0
 DTSTAMP:20261012T133642Z
