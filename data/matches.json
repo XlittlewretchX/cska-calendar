@@ -45172,7 +45172,7 @@
       "home": "ЦСКА",
       "away": "Арсенал Т",
       "competition": "Товарищеские",
-      "season": "2026/27",
+      "season": "2026",
       "venue": "Ватутинки",
       "schedule": {
         "kind": "timed",
@@ -45183,8 +45183,8 @@
       "score": "4:1",
       "uid": "dedb8ed27e7c0b9980df40dca67dd69a@cska-calendar",
       "created": "2026-11-11T10:14:47.850Z",
-      "modified": "2026-11-15T10:20:52.197Z",
-      "sequence": 1
+      "modified": "2026-11-19T11:04:41.110Z",
+      "sequence": 2
     },
     {
       "refs": [
@@ -45837,26 +45837,26 @@
       "seasonId": 223974,
       "season": "2025",
       "count": 4,
-      "fetchedAt": "2026-11-18T11:02:35.907Z"
+      "fetchedAt": "2026-11-19T11:04:41.110Z"
     },
     {
       "seasonId": 223979,
       "season": "2025/26",
       "count": 42,
-      "fetchedAt": "2026-11-18T11:02:35.907Z"
+      "fetchedAt": "2026-11-19T11:04:41.110Z"
     },
     {
       "seasonId": 223980,
       "season": "2026",
-      "count": 8,
-      "fetchedAt": "2026-11-18T11:02:35.907Z"
+      "count": 9,
+      "fetchedAt": "2026-11-19T11:04:41.110Z"
     },
     {
       "seasonId": 223981,
       "season": "2026/27",
-      "count": 28,
-      "fetchedAt": "2026-11-18T11:02:35.907Z"
+      "count": 27,
+      "fetchedAt": "2026-11-19T11:04:41.110Z"
     }
   ],
-  "updatedAt": "2026-11-18T11:02:35.907Z"
+  "updatedAt": "2026-11-19T11:04:41.110Z"
 }
