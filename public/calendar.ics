@@ -33722,22 +33722,23 @@ LAST-MODIFIED:20261119T110441Z
 END:VEVENT
 BEGIN:VEVENT
 UID:590a5d57d20e784cacc3d0dde31079a3@cska-calendar
-SEQUENCE:0
-DTSTAMP:20261012T133642Z
+SEQUENCE:1
+DTSTAMP:20261122T104025Z
 DTSTART:20261121T164500Z
 DTEND:20261121T184500Z
-SUMMARY:⚽ ЦСКА — Ахмат
+SUMMARY:⚽ ЦСКА 1:2 Ахмат
 TRANSP:TRANSPARENT
 LOCATION:ВЭБ Арена
 DESCRIPTION:Альфа-Банк РПЛ\nСезон: 2026/27\nТур 15\nХ
  озяева: ЦСКА\nГости: Ахмат\nСтадион: ВЭБ А
- рена\n21 ноябрь 2026\, 19:45 (Москва)\nПродолжит
- ельность события условная: 2 часа.\nhttps://pfc
- -cska.com/ru/matchi/kalendar-matchej/32234/
+ рена\n21 ноябрь 2026\, 19:45 (Москва)\nИтоговый с
+ чёт: 1:2\nПродолжительность события услов
+ ная: 2 часа.\nhttps://pfc-cska.com/ru/matchi/kalendar-matchej/32234
+ /
 URL;VALUE=URI:https://pfc-cska.com/ru/matchi/kalendar-matchej/32234/
 STATUS:CONFIRMED
 CREATED:20261012T133642Z
-LAST-MODIFIED:20261012T133642Z
+LAST-MODIFIED:20261122T104025Z
 END:VEVENT
 BEGIN:VEVENT
 UID:1cc0a64189035bab731b7833a0d0c5bf@cska-calendar
