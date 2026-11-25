@@ -33742,23 +33742,23 @@ LAST-MODIFIED:20261122T104025Z
 END:VEVENT
 BEGIN:VEVENT
 UID:1cc0a64189035bab731b7833a0d0c5bf@cska-calendar
-SEQUENCE:0
-DTSTAMP:20261012T133642Z
+SEQUENCE:1
+DTSTAMP:20261125T120247Z
 DTSTART:20261124T140000Z
 DTEND:20261124T160000Z
-SUMMARY:⚽ Акрон — ЦСКА
+SUMMARY:⚽ Акрон 0:1 ЦСКА
 TRANSP:TRANSPARENT
 LOCATION:Солидарность Арена
 DESCRIPTION:FONBET Кубок России\nСезон: 2026/27\nПуть 
  РПЛ\, Тур 6\nХозяева: Акрон\nГости: ЦСКА\nСт
  адион: Солидарность Арена\n24 ноябрь 2026\, 17
- :00 (Москва)\nПродолжительность события ус
- ловная: 2 часа.\nhttps://pfc-cska.com/ru/matchi/kalendar-matchej
- /32248/
+ :00 (Москва)\nИтоговый счёт: 0:1\nПродолжител
+ ьность события условная: 2 часа.\nhttps://pfc-csk
+ a.com/ru/matchi/kalendar-matchej/32248/
 URL;VALUE=URI:https://pfc-cska.com/ru/matchi/kalendar-matchej/32248/
 STATUS:CONFIRMED
 CREATED:20261012T133642Z
-LAST-MODIFIED:20261012T133642Z
+LAST-MODIFIED:20261125T120247Z
 END:VEVENT
 BEGIN:VEVENT
 UID:5126ecc69a227acced9eecb6b56cdb65@cska-calendar
