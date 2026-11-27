@@ -33821,6 +33821,28 @@ CREATED:20261012T133642Z
 LAST-MODIFIED:20261012T133642Z
 END:VEVENT
 BEGIN:VEVENT
+UID:1387607f11abe735d54e2ef780a149f7@cska-calendar
+SEQUENCE:0
+DTSTAMP:20261127T114256Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270304
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:⚽ ЦСКА — Спартак М
+TRANSP:TRANSPARENT
+LOCATION:ВЭБ Арена
+DESCRIPTION:FONBET Кубок России\nСезон: 2026/27\nПуть 
+ РПЛ\, 1/8 финала\nХозяева: ЦСКА\nГости: Спар
+ так М\nСтадион: ВЭБ Арена\nПредварительно
+ е расписание: 2027-03-01 — 2027-03-03 включительн
+ о. Точная дата и время будут уточнены.\nhttp
+ s://pfc-cska.com/ru/matchi/kalendar-matchej/32809/
+URL;VALUE=URI:https://pfc-cska.com/ru/matchi/kalendar-matchej/32809/
+STATUS:TENTATIVE
+CREATED:20261127T114256Z
+LAST-MODIFIED:20261127T114256Z
+END:VEVENT
+BEGIN:VEVENT
 UID:a144e0046749cbc2cdee907025c407d8@cska-calendar
 SEQUENCE:0
 DTSTAMP:20261012T133642Z
@@ -33863,6 +33885,28 @@ URL;VALUE=URI:https://pfc-cska.com/ru/matchi/kalendar-matchej/32230/
 STATUS:TENTATIVE
 CREATED:20261012T133642Z
 LAST-MODIFIED:20261012T133642Z
+END:VEVENT
+BEGIN:VEVENT
+UID:4cfaa9dcc777126a37ba2ac7224dda3f@cska-calendar
+SEQUENCE:0
+DTSTAMP:20261127T114256Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270318
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:⚽ Спартак М — ЦСКА
+TRANSP:TRANSPARENT
+LOCATION:Лукойл Арена
+DESCRIPTION:FONBET Кубок России\nСезон: 2026/27\nПуть 
+ РПЛ\, 1/8 финала\nХозяева: Спартак М\nГости: 
+ ЦСКА\nСтадион: Лукойл Арена\nПредварител
+ ьное расписание: 2027-03-15 — 2027-03-17 включите
+ льно. Точная дата и время будут уточнены.
+ \nhttps://pfc-cska.com/ru/matchi/kalendar-matchej/32810/
+URL;VALUE=URI:https://pfc-cska.com/ru/matchi/kalendar-matchej/32810/
+STATUS:TENTATIVE
+CREATED:20261127T114256Z
+LAST-MODIFIED:20261127T114256Z
 END:VEVENT
 BEGIN:VEVENT
 UID:f80fe0515b80b92f91108c1297d5b9cf@cska-calendar

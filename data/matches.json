@@ -45322,6 +45322,32 @@
       "refs": [
         {
           "source": "pfc-cska",
+          "id": "32809",
+          "url": "https://pfc-cska.com/ru/matchi/kalendar-matchej/32809/",
+          "priority": 100
+        }
+      ],
+      "home": "ЦСКА",
+      "away": "Спартак М",
+      "competition": "FONBET Кубок России",
+      "season": "2026/27",
+      "round": "Путь РПЛ, 1/8 финала",
+      "venue": "ВЭБ Арена",
+      "schedule": {
+        "kind": "range",
+        "from": "2027-03-01",
+        "through": "2027-03-03"
+      },
+      "status": "scheduled",
+      "uid": "1387607f11abe735d54e2ef780a149f7@cska-calendar",
+      "created": "2026-11-27T11:42:56.772Z",
+      "modified": "2026-11-27T11:42:56.772Z",
+      "sequence": 0
+    },
+    {
+      "refs": [
+        {
+          "source": "pfc-cska",
           "id": "32231",
           "url": "https://pfc-cska.com/ru/matchi/kalendar-matchej/32231/",
           "priority": 100
@@ -45368,6 +45394,32 @@
       "uid": "d590b4b0be77bda6760ab11b98144e6c@cska-calendar",
       "created": "2026-10-12T13:36:42.227Z",
       "modified": "2026-10-12T13:36:42.227Z",
+      "sequence": 0
+    },
+    {
+      "refs": [
+        {
+          "source": "pfc-cska",
+          "id": "32810",
+          "url": "https://pfc-cska.com/ru/matchi/kalendar-matchej/32810/",
+          "priority": 100
+        }
+      ],
+      "home": "Спартак М",
+      "away": "ЦСКА",
+      "competition": "FONBET Кубок России",
+      "season": "2026/27",
+      "round": "Путь РПЛ, 1/8 финала",
+      "venue": "Лукойл Арена",
+      "schedule": {
+        "kind": "range",
+        "from": "2027-03-15",
+        "through": "2027-03-17"
+      },
+      "status": "scheduled",
+      "uid": "4cfaa9dcc777126a37ba2ac7224dda3f@cska-calendar",
+      "created": "2026-11-27T11:42:56.772Z",
+      "modified": "2026-11-27T11:42:56.772Z",
       "sequence": 0
     },
     {
@@ -45839,26 +45891,26 @@
       "seasonId": 223974,
       "season": "2025",
       "count": 4,
-      "fetchedAt": "2026-11-26T11:50:48.407Z"
+      "fetchedAt": "2026-11-27T11:42:56.772Z"
     },
     {
       "seasonId": 223979,
       "season": "2025/26",
       "count": 42,
-      "fetchedAt": "2026-11-26T11:50:48.407Z"
+      "fetchedAt": "2026-11-27T11:42:56.772Z"
     },
     {
       "seasonId": 223980,
       "season": "2026",
       "count": 9,
-      "fetchedAt": "2026-11-26T11:50:48.407Z"
+      "fetchedAt": "2026-11-27T11:42:56.772Z"
     },
     {
       "seasonId": 223981,
       "season": "2026/27",
       "count": 29,
-      "fetchedAt": "2026-11-26T11:50:48.407Z"
+      "fetchedAt": "2026-11-27T11:42:56.772Z"
     }
   ],
-  "updatedAt": "2026-11-26T11:50:48.407Z"
+  "updatedAt": "2026-11-27T11:42:56.772Z"
 }
